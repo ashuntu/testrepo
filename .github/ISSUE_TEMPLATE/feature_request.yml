@@ -4,9 +4,26 @@ title: '<title>'
 labels: [enhancement]
 body:
 - type: textarea
-  id: testid
+  attributes:
+    label: Is the feature related to a problem or existing issue?
+    description: |
+      If so, please describe the problem or reference/link the issue number. If not, leave this empty.
+  validations:
+    required: false
+- type: textarea
   attributes:
     label: Describe the solution/feature you'd like.
-    # description: |
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Describe any alternatives you've considered.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Additional context
+    description: |
+      Provide any additional context that may be relevant to the feature request.
+  validations:
+    required: false
