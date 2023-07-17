@@ -5,8 +5,7 @@ labels: [Bug, Needs Triage]
 body:
 - type: checkboxes
   attributes:
-    label: |
-      Is there an existing issue for this?
+    label: Is there an existing issue for this?
     description: |
       Please search to see if an issue already exists for the bug you encountered. https://github.com/canonical/steam-snap/issues?q=
     options:
@@ -14,8 +13,7 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: |
-      Have you checked the Wiki for solutions?
+    label: Have you checked the Wiki for solutions?
     description: |
       Please check the Wiki to see if your issue is addressed. https://github.com/canonical/steam-snap/wiki
     options:
@@ -23,10 +21,9 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: |
-      Does your issue occur in the Steam deb?
+    label: Is this a Steam snap-specific issue?
     description: |
-      Please make sure your issue *only* occurs in the Snap. Otherwise, open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux
+      Please make sure your issue *only* occurs in the Snap (and **not** in the deb). Otherwise, open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux
     options:
     - label: This is a Steam Snap-specific issue
       required: true
@@ -50,8 +47,7 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: |
-      Steps To Reproduce
+    label: Steps To Reproduce
     description: |
       Steps to reproduce the behavior.
     placeholder: |
@@ -63,8 +59,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: |
-      Environment
+    label: Environment
     description: "Output of `snap run steam.report --no-submit`. More info on this command [here](https://github.com/canonical/steam-snap/wiki/Troubleshooting#submitting-a-steam-report
 )."
     placeholder: |
@@ -88,8 +83,7 @@ body:
     required: true
 - type: dropdown
   attributes:
-    label: |
-      gaming-graphics-core22 **version**
+    label: gaming-graphics-core22 version
     description: |
       Please select the version(s) of gaming-graphics-core22 you have tried/this issue affects. More info on this [here](https://github.com/canonical/steam-snap/wiki/FAQ#how-do-i-use-a-different-mesagraphics-version).
 
