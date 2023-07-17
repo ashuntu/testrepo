@@ -1,5 +1,5 @@
 ---
-name: Bug Report
+name: old Bug Report
 about: Create a report about a problem with the Snap
 title: ''
 labels: bug
