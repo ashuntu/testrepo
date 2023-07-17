@@ -82,7 +82,8 @@ body:
       - kisak-turtle
       - oibaf-latest
     multiple: true
-    required: false
+    validations:
+      required: false
 - type: textarea
   attributes:
     label: Anything else?
