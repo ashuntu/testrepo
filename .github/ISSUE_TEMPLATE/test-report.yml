@@ -73,6 +73,16 @@ body:
     render: yaml
   validations:
     required: true
+- type: dropdown
+  attributes:
+    label: gaming-graphics-core22 version
+    description: Please select the version(s) of gaming-graphics-core22 you have tried/this affects.
+    options:
+      - kisak-fresh (default)
+      - kisak-turtle
+      - oibaf-latest
+    multiple: true
+    required: false
 - type: textarea
   attributes:
     label: Anything else?
