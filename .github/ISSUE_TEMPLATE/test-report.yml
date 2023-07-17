@@ -76,7 +76,10 @@ body:
 - type: dropdown
   attributes:
     label: gaming-graphics-core22 version
-    description: Please select the version(s) of gaming-graphics-core22 you have tried/this affects.
+    description: |
+      Please select the version(s) of gaming-graphics-core22 you have tried/this issue affects. More info on this [here](https://github.com/canonical/steam-snap/wiki/FAQ#how-do-i-use-a-different-mesagraphics-version).
+
+      If the issue is graphics/GPU related, it is very useful to us if you try each branch and report observed behavior differences.
     options:
       - kisak-fresh (default)
       - kisak-turtle
