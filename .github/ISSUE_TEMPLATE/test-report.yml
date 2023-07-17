@@ -21,9 +21,9 @@ body:
       required: true
 - type: checkboxes
   attributes:
-    label: Is this a Steam snap-specific issue?
+    label: Is this a Steam Snap-specific issue?
     description: |
-      Please make sure your issue *only* occurs in the Snap (and **not** in the deb). Otherwise, open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux
+      Please make sure your issue *only* occurs in the Snap (and **not** in the deb). If this is a deb issue then open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux
     options:
     - label: This is a Steam Snap-specific issue
       required: true
@@ -60,8 +60,8 @@ body:
 - type: textarea
   attributes:
     label: Environment
-    description: "Output of `snap run steam.report --no-submit`. More info on this command [here](https://github.com/canonical/steam-snap/wiki/Troubleshooting#submitting-a-steam-report
-)."
+    description: |
+      Output of `snap run steam.report --no-submit`. More info on this command [here](https://github.com/canonical/steam-snap/wiki/Troubleshooting#submitting-a-steam-report).
     placeholder: |
       os_release: 
           name:               
