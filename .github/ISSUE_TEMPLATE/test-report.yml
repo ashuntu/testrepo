@@ -70,7 +70,7 @@ body:
       lscpu: 
           model_name:         
       xdg_current_desktop:    
-desktop_session:        ubuntu
+      desktop_session:        ubuntu
     render: yaml
   validations:
     required: false
