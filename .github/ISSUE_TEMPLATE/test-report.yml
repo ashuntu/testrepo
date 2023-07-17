@@ -7,7 +7,7 @@ body:
   attributes:
     label: Is there an existing issue for this?
     description: |
-      Please search to see if an issue already exists for the bug you encountered. https://github.com/canonical/steam-snap/issues?q=
+      Please search to see if an issue already exists for the bug you encountered: https://github.com/canonical/steam-snap/issues?q=.
     options:
     - label: I have searched the existing issues
       required: true
@@ -15,7 +15,7 @@ body:
   attributes:
     label: Have you checked the Wiki for solutions?
     description: |
-      Please check the Wiki to see if your issue is addressed. https://github.com/canonical/steam-snap/wiki
+      Please check the Wiki to see if your issue is addressed: https://github.com/canonical/steam-snap/wiki.
     options:
     - label: I have searched the Wiki
       required: true
