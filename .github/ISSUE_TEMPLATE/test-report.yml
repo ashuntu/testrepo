@@ -23,7 +23,7 @@ body:
   attributes:
     label: Is this a Steam Snap-specific issue?
     description: |
-      Please make sure your issue is exclusive to the Steam Snap, and doesn't occur in the Steam deb. If this is a deb issue then open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux. If you don't know, leave this unchecked.
+      Please make sure your issue is exclusive to the Steam Snap, and doesn't occur in the Steam deb. If this is a deb issue, then open an issue in Valve's repository instead: https://github.com/ValveSoftware/steam-for-linux. If you don't know, leave this unchecked.
     options:
     - label: This is a Steam Snap-specific issue
       required: false
