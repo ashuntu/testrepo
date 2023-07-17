@@ -47,13 +47,30 @@ body:
       2. Click on '...'
       3. Scroll down to '...'
       4. See error/undesired behavior
-    render: markdown
   validations:
-    required: true
+    required: false
 - type: textarea
   attributes:
     label: Environment
-    description: Output of `snap run steam.report --no-submit`
+    description: Output of `snap run steam.report --no-submit`. More info on this command [here](https://github.com/canonical/steam-snap/wiki/Troubleshooting#submitting-a-steam-report
+).
+    placeholder: |
+      os_release: 
+          name:               
+          version:            
+      snap_info: 
+          steam_revision:     
+          snapd_revision:     
+      lspci: 
+          00:02.0:            
+          01:00.0:            
+      glxinfo: 
+          gpu:                
+          gpu_version:        
+      lscpu: 
+          model_name:         
+      xdg_current_desktop:    
+desktop_session:        ubuntu
     render: yaml
   validations:
     required: false
