@@ -13,6 +13,8 @@ body:
 - type: textarea
   attributes:
     label: Describe the solution/feature you'd like.
+    description: |
+      Please note that we cannot provide any additional functionality to the Steam client itself. If this feature extends the Steam client functionality, open an issue in Valve's repository instead: https://github.com/ValveSoftware/steam-for-linux.
   validations:
     required: true
 - type: textarea
