@@ -1,6 +1,12 @@
 name: Feature request
 about: Suggest an idea for this project
-title: ''
-labels: enhancement
-assignees: ''
+title: '<title>'
+labels: [enhancement]
 body:
+- type: textarea
+  id: testid
+  attributes:
+    label: Describe the solution/feature you'd like.
+    # description: |
+  validations:
+    required: true
