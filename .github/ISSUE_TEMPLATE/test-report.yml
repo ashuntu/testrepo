@@ -85,7 +85,7 @@ body:
   attributes:
     label: gaming-graphics-core22 version
     description: |
-      Please select the version(s) of gaming-graphics-core22 you have tried/this issue affects. More info on this [here](https://github.com/canonical/steam-snap/wiki/FAQ#how-do-i-use-a-different-mesagraphics-version).
+      Please select the version(s) of the [gaming-graphics-core22](https://github.com/canonical/gaming-graphics/) Snap you have tried/this issue affects. More info on this [here](https://github.com/canonical/steam-snap/wiki/FAQ#how-do-i-use-a-different-mesagraphics-version).
 
       If the issue is graphics/GPU related, it is very useful to us if you try each gaming-graphics-core22 branch and report observed behavior differences.
     options:
