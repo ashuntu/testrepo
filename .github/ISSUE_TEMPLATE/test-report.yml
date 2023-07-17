@@ -15,7 +15,7 @@ body:
   attributes:
     label: Have you checked the Wiki for solutions?
     description: |
-      Please check the Wiki to see if your issue is addressed: https://github.com/canonical/steam-snap/wiki.
+      Please check the Wiki to see if your issue is addressed: https://github.com/canonical/steam-snap/wiki. If you do any troubleshooting from the Wiki, please include it in the final section of this report.
     options:
     - label: I have searched the Wiki
       required: true
