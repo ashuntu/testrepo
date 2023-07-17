@@ -43,10 +43,11 @@ body:
     label: Steps To Reproduce
     description: Steps to reproduce the behavior.
     placeholder: |
-      1. In this environment...
-      1. With this config...
-      1. Run '...'
-      1. See error...
+      1. Go to '...'
+      2. Click on '...'
+      3. Scroll down to '...'
+      4. See error/undesired behavior
+    render: markdown
   validations:
     required: true
 - type: textarea
