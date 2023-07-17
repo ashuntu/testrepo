@@ -100,7 +100,7 @@ body:
     label: |
       Anything else?
     description: |
-      Screenshots? Logs? Links? Anything that will give us more context about the issue. If pasting logs, please format them by surrounding the text with ```.
+      Screenshots? [Logs](https://github.com/canonical/steam-snap/wiki/Troubleshooting#view-logs)? Links? Anything that will give us more context about the issue. If pasting logs, please format them by surrounding the text with ```.
 
       Please include any additional steps you took to troubleshoot. For troubleshooting ideas, see the [Wiki](https://github.com/canonical/steam-snap/wiki).
 
