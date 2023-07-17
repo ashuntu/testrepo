@@ -23,10 +23,10 @@ body:
   attributes:
     label: Is this a Steam Snap-specific issue?
     description: |
-      Please make sure your issue *only* occurs in the Snap (and **not** in the deb). If this is a deb issue then open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux
+      Please make sure your issue *only* occurs in the Snap (and **not** in the deb). If this is a deb issue then open an issue in Valve's repository: https://github.com/ValveSoftware/steam-for-linux. If you don't know, leave this unchecked.
     options:
     - label: This is a Steam Snap-specific issue
-      required: true
+      required: false
 - type: textarea
   attributes:
     label: Current Behavior
