@@ -28,6 +28,7 @@ body:
     - label: This is a Steam Snap-specific issue
       required: false
 - type: textarea
+  id: behavior
   attributes:
     label: Current Behavior
     description: |
